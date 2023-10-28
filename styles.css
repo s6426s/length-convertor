@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: radial-gradient(#fff,#6f5414);
+
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+input, select, button {
+  margin-top: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+p {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.col-1{
+  text-align: center;
+  padding:40px 20px;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.col-1:hover{
+  transform: translateY(-10px);
+}
+
+label{
+  display: inline-block;
+}
+
